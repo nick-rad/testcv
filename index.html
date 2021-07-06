@@ -1,0 +1,58 @@
+<!DOCTYPE html>				                      <!-- Tells browser to render this using HTML 5 (previous versions had a more complex syntax in this line) -->
+                                            <!-- Remember to "google mdm xyz" to check the mozilla documentation for xyz -->
+<html lang="en" dir="ltr">			            <!-- Tells browser that everything between here and the closing tag is going to be HTML code  -->
+  <head>					                          <!-- The head holds information about the page and tells browser how to handle the page -->
+    <meta charset="utf-8">			            <!-- Adding metadata ... adding the utf encoding (characterset) utf-8 is the standard on HTML5 (unicoide-table.com) -->
+						                                <!--   there are lots of meta data settings like author,... as well as giving search engines info on content -->
+    <title>Nick's Personal Site</title>     <!-- The title of the page "Nick's Personal Site" is displayed on the page tab title -->
+  </head>
+  <body>
+    <center>                                <!-- Center all items withing the opebning and closing center tags -->
+                                            <!-- img allows an image to be embedded (either a web link or a local source) the an alternative description which google,etc scrapes -->
+      <table cellspacing="20">                               <!-- Defining a table layout with rows each containing one or more td (table data) columns ( cellspacing is DEPRICATED) -->
+        <tr>                                <!-- Row 1 (this little table will only have one row)-->
+          <td>                              <!-- Column 1 -->
+            <img src="ratman.bmp" alt="Nick's Profile Picture">
+          </td>
+          <td>                              <!-- Column 2 -->
+            <h1>Nick</h1>                        <!-- the h1 heading ... h1 is the largest you can have all the way down to h6 (smallest) -->
+                                              <!-- <p>test...</p> is for enclosing a paragraph -->
+            <p><em>Lowly &                     <!-- <em></em><i></i> does the same job but "i" will not "emphasise" the text as in "We had to ..." where We can be emphasised -->
+                                              <!-- <b></b> (bold) v.s. <strong></strong> is a similar set where strong is more flexible as in you may want to do more than -->
+                                              <!-- just set it to bold ... such as change it's colour,... -->
+            <a href="https://dictionary.cambridge.org/dictionary/english/foolish">
+                <strong>Foolish</strong></a>  <!-- anchor (Hyperlink) to text, web pages, files, email addresses, locations in the same page, or anything else a URL can address -->
+                                              <!-- the href="link destination" link could start with https:// or mailto: or tel: to link to a secure web address, a -->
+                                              <!-- mail address, or a telephone number respectively -->
+               Programmer.</em></p>
+            <p>I am an aging C/C++ programmer who is tired of re-doing the same mundane things in the same stupid ways<br>  <!-- br is a line break/newline -->
+                 as dictated to by middle management
+            </p>
+          </td>
+       </tr>
+      </table>
+    </center>
+    <hr>                                    <!-- prints a Horizontal Rule (horizontal line) -->
+    <h3>Books and Teaching</h3>
+    <ul>                                                                                  <!-- <ul></ul> surrounds an UNORDERED LIST of items. each item in <li>ItemText</li> -->
+      <li>The lonely life of a programmer that no one understands</li>                    <!-- and can be nested -->
+      <li>Time to implement another looney idea from the design committee
+          <ul>
+              <li>You should store phone numbers in random order - better security</li>
+              <li>You shouldn't log information as it slows down the system</li>
+              <li>It is always best to copy files all over the place so that you can have more of a maintenance headache</li>
+          </ul>
+      </li>
+      <li>The slow death of a maintenance programmers's career</li>
+      <li>How to stay in one place</li>
+      <li>How to achieve nothing for the longest time</li>
+      <li>How <em>not</em> to improve repetative processes</li>
+    </ul>
+    <hr>
+    <a href="cv.html">CV</a><br />                <!-- NBNB this page imlements more examples of TABLES in html -->
+    <a href="hobbies.html">My Hobbies</a><br />
+    <a href="contact_me.html">Contact Me</a>
+    </p>
+
+  </body>
+</html>
